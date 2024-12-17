@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5x5 Button Matrix</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+        }
+
+        .matrix {
+            display: grid;
+            grid-template-columns: repeat(5, 100px); /* Create 5 columns */
+            grid-template-rows: repeat(5, 100px); /* Create 5 rows */
+            gap: 10px; /* Space between buttons */
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:aqua ;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        /* .congrate{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        } */
+
+
+
+
+
+
+    
+    </style>
+</head>
+<body>
+  <!-- <div class="congrate">congrat</div> -->
+<div class="matrix">
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+    <button class="button"></button>
+</div>
+<script src="index.js"></script>
+</body>
+</html
